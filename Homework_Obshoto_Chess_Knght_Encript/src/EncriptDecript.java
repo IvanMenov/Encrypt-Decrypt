@@ -1,6 +1,8 @@
 
 import java.util.Scanner;
 
+// Encrypting and then decrypting simple words using a simple algorithm
+
 public class EncriptDecript {
 
 	public static void main(String[] args) {
@@ -22,10 +24,10 @@ public class EncriptDecript {
 	public static String encripting(String text) {
 
 		char[][] encripting = { { 'B', 'M', 'S', 'J', 'C', },
-								{ 'I', 'F', 'N', 'T', 'K', },
-								{ 'R', 'L', 'A', 'H', 'E', },
-								{ 'D', 'O', 'G', 'Q', 'V', }, 
-								{ 'U', 'W', 'X', 'Y', 'P', }, };
+					{ 'I', 'F', 'N', 'T', 'K', },
+					{ 'R', 'L', 'A', 'H', 'E', },
+					{ 'D', 'O', 'G', 'Q', 'V', }, 
+					{ 'U', 'W', 'X', 'Y', 'P', }, };
 
 		char firstChar = 0;
 		char secondChar = 0;
@@ -94,10 +96,10 @@ public class EncriptDecript {
 
 	static String decript(String newText) {
 		char[][] decripting = { { 'B', 'M', 'S', 'J', 'C', }, 
-								{ 'I', 'F', 'N', 'T', 'K', },
-								{ 'R', 'L', 'A', 'H', 'E', },
-								{ 'D', 'O', 'G', 'Q', 'V', },
-								{ 'U', 'W', 'X', 'Y', 'P', }, };
+					{ 'I', 'F', 'N', 'T', 'K', },
+					{ 'R', 'L', 'A', 'H', 'E', },
+					{ 'D', 'O', 'G', 'Q', 'V', },
+					{ 'U', 'W', 'X', 'Y', 'P', }, };
 
 		char firstChar = 0;
 		char secondChar = 0;
