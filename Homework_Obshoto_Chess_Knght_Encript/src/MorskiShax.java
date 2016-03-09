@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+// Simple game of Morski Shah
+
+
 public class MorskiShax {
 	
 	static void printMatrix(char[][]matrix){
